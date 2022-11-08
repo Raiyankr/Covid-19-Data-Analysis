@@ -8,7 +8,7 @@ Employment shortages have significantly slowed the economy, especially in shippi
 
 With all of these financial constraints, we wanted to evaluate the direct impact on Canadians:
     
-    "has the pandemic caused Canada to be overly unaffordable for its inhabitants?" 
-    "Have the rising costs of food caused Canadians to sacrifice other expenditures?" 
-    "We seek to evaluate the impact of the pandemic on the spending habits of the Canadian population."
-    "How exactly has the pandemic affected how much Canadians spend and what Canadians are spending their money on?"
+    - has the pandemic caused Canada to be overly unaffordable for its inhabitants?
+    - Have the rising costs of food caused Canadians to sacrifice other expenditures?
+    - We seek to evaluate the impact of the pandemic on the spending habits of the Canadian population.
+    - How exactly has the pandemic affected how much Canadians spend and what Canadians are spending their money on?
