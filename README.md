@@ -22,16 +22,16 @@ All the datasets are included except the "consumer price index dataset". All the
 
 
 2. Consumer Price Index, monthly, not seasonally adjusted: https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip (rename to: consumer-price-index\_dataset.csv)
-* This data was sourced from Statistics Canada (csv format). Shows the growth in goods and services pricing compared to 2002, where 2002 is 1.0 (ratio)
-* From this dataset, the first column containing the date, the second column containing the region, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+    * This data was sourced from Statistics Canada (csv format). Shows the growth in goods and services pricing compared to 2002, where 2002 is 1.0 (ratio)
+    * From this dataset, the first column containing the date, the second column containing the region, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
 
 
 3. Epidemiologic data on the COVID 19 Outbreak in Canada: https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv (rename to: covid-19\_dataset.csv)
-* This data was sourced from Statistics Canada (csv format). We will use epidemiological surveillance data to show how the COVID-19 situation is evolving in Canada and how it correlates to consumer expenditure.
-* From this dataset, the first column containing the region ID, the fourth column containing the date, and the sixteenth column containing the daily number of cases are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+    * This data was sourced from Statistics Canada (csv format). We will use epidemiological surveillance data to show how the COVID-19 situation is evolving in Canada and how it correlates to consumer expenditure.
+    * From this dataset, the first column containing the region ID, the fourth column containing the date, and the sixteenth column containing the daily number of cases are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
 
 
 4. Canadian unemployment data: https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=\%23e1e9f0&chart_type=line&drp=0&fo=open\%20sans&graph_bgcolor=\%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=\%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=LRUNTTTTCAM156S&scale=left&cosd=1960-01-01&coed=2021-10-01&line_color=\%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2021-12-05&revision_date=2021-12-05&nd=1960-01-01 (rename to: unemployment-rate\_dataset.csv)
-* This data was sourced from the Federal Reserve Economic Data (csv format). We will use monthly unemployment data to correlate the effect Covid-19 has had on unemployment and the correlation of it towards the price index.
-* From this dataset, both of the two columns, containing date and unemployment rate are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+    * This data was sourced from the Federal Reserve Economic Data (csv format). We will use monthly unemployment data to correlate the effect Covid-19 has had on unemployment and the correlation of it towards the price index.
+    * From this dataset, both of the two columns, containing date and unemployment rate are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
 
