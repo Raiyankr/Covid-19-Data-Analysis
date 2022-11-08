@@ -12,3 +12,30 @@ With all of these financial constraints, we wanted to evaluate the direct impact
     - Have the rising costs of food caused Canadians to sacrifice other expenditures?
     - We seek to evaluate the impact of the pandemic on the spending habits of the Canadian population.
     - How exactly has the pandemic affected how much Canadians spend and what Canadians are spending their money on?
+
+# Datasets
+Each dataset can be downloaded from the clickable hyperlink 'download link' next to each dataset title.\\
+
+1. Monthly adjusted consumer expenditure basket weights: \blue{\href{https://www150.statcan.gc.ca/n1/tbl/csv/18100264-eng.zip}{download link}} (rename to: weighted-baskets\_dataset.csv)
+\begin{itemize}
+\item This data was sourced from Statistics Canada (csv format). It shows the fluctuations/growth of consumer expenditure in various products that vary from food, clothing, transport, internet and even more. For the purpose of this project we will be focusing in on the changes that take place for food items particularly.
+\item From this dataset, the first column containing the date, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+\end{itemize}
+
+2. Consumer Price Index, monthly, not seasonally adjusted: \blue{\href{https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip}{download link}} (rename to: consumer-price-index\_dataset.csv)
+\begin{itemize}
+\item This data was sourced from Statistics Canada (csv format). Shows the growth in goods and services pricing compared to 2002, where 2002 is 1.0 (ratio)
+\item From this dataset, the first column containing the date, the second column containing the region, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+\end{itemize}
+
+3. Epidemiologic data on the COVID 19 Outbreak in Canada: \blue{\href{https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv}{download link}} (rename to: covid-19\_dataset.csv)
+\begin{itemize}
+\item This data was sourced from Statistics Canada (csv format). We will use epidemiological surveillance data to show how the COVID-19 situation is evolving in Canada and how it correlates to consumer expenditure.
+\item From this dataset, the first column containing the region ID, the fourth column containing the date, and the sixteenth column containing the daily number of cases are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+\end{itemize}
+
+4. Canadian unemployment data: \blue{\href{https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=\%23e1e9f0&chart_type=line&drp=0&fo=open\%20sans&graph_bgcolor=\%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=\%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=LRUNTTTTCAM156S&scale=left&cosd=1960-01-01&coed=2021-10-01&line_color=\%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Monthly&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2021-12-05&revision_date=2021-12-05&nd=1960-01-01}{download link}} (rename to: unemployment-rate\_dataset.csv)
+\begin{itemize}
+\item This data was sourced from the Federal Reserve Economic Data (csv format). We will use monthly unemployment data to correlate the effect Covid-19 has had on unemployment and the correlation of it towards the price index.
+\item From this dataset, both of the two columns, containing date and unemployment rate are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+\end{itemize}
