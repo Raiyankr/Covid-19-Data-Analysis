@@ -7,8 +7,8 @@ First, the pandemic drove the unemployment rate as high as 13.7 percent in May o
 Employment shortages have significantly slowed the economy, especially in shipping companies like Fedex, who cited that one example facility was only operated at 65 percent capacity due to labour shortages. These types of shortages are causing prices of goods and services to skyrocket. Furthermore, rent prices across Canada are continuing to recover after dropping, with September being the sixth consecutive month of average rental price increasing.
 
 With all of these financial constraints, we wanted to evaluate the direct impact on Canadians:
+    
     "has the pandemic caused Canada to be overly unaffordable for its inhabitants?" 
     "Have the rising costs of food caused Canadians to sacrifice other expenditures?" 
     "We seek to evaluate the impact of the pandemic on the spending habits of the Canadian population."
-
     "How exactly has the pandemic affected how much Canadians spend and what Canadians are spending their money on?"
