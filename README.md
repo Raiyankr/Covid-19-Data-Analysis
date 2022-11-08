@@ -14,13 +14,12 @@ With all of these financial constraints, we wanted to evaluate the direct impact
     - How exactly has the pandemic affected how much Canadians spend and what Canadians are spending their money on?
 
 # Datasets
-Each dataset can be downloaded from the clickable hyperlink 'download link' next to each dataset title.\\
+All the datasets are included except the "consumer price index dataset". All the dataset can be downloaded from the clickable hyperlink below:
 
-1. Monthly adjusted consumer expenditure basket weights: \blue{\href{https://www150.statcan.gc.ca/n1/tbl/csv/18100264-eng.zip}{download link}} (rename to: weighted-baskets\_dataset.csv)
-\begin{itemize}
-\item This data was sourced from Statistics Canada (csv format). It shows the fluctuations/growth of consumer expenditure in various products that vary from food, clothing, transport, internet and even more. For the purpose of this project we will be focusing in on the changes that take place for food items particularly.
-\item From this dataset, the first column containing the date, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
-\end{itemize}
+1. Monthly adjusted consumer expenditure basket weights: https://www150.statcan.gc.ca/n1/tbl/csv/18100264-eng.zip (rename to: weighted-baskets\_dataset.csv)
+* This data was sourced from Statistics Canada (csv format). It shows the fluctuations/growth of consumer expenditure in various products that vary from food, clothing, transport, internet and even more. For the purpose of this project we will be focusing in on the changes that take place for food items particularly.
+* From this dataset, the first column containing the date, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+
 
 2. Consumer Price Index, monthly, not seasonally adjusted: \blue{\href{https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip}{download link}} (rename to: consumer-price-index\_dataset.csv)
 \begin{itemize}
