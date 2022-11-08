@@ -17,8 +17,8 @@ With all of these financial constraints, we wanted to evaluate the direct impact
 All the datasets are included except the "consumer price index dataset". All the dataset can be downloaded from the clickable hyperlink below:
 
 1. Monthly adjusted consumer expenditure basket weights: https://www150.statcan.gc.ca/n1/tbl/csv/18100264-eng.zip (rename to: weighted-baskets\_dataset.csv)
-* This data was sourced from Statistics Canada (csv format). It shows the fluctuations/growth of consumer expenditure in various products that vary from food, clothing, transport, internet and even more. For the purpose of this project we will be focusing in on the changes that take place for food items particularly.
-* From this dataset, the first column containing the date, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
+    * This data was sourced from Statistics Canada (csv format). It shows the fluctuations/growth of consumer expenditure in various products that vary from food, clothing, transport, internet and even more. For the purpose of this project we will be focusing in on the changes that take place for food items particularly.
+    * From this dataset, the first column containing the date, the fourth column containing the name of the commodity, and the tenth column containing the value are used. The rows which contain relevant months (specified inside the program) are used to produce visuals.
 
 
 2. Consumer Price Index, monthly, not seasonally adjusted: https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip (rename to: consumer-price-index\_dataset.csv)
